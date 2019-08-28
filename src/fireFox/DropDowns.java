@@ -24,7 +24,7 @@ public class DropDowns {
 		/* NOTE: The normal For loop may not work in this flow. only the advanced For loop can be used */
 		List<WebElement> dropdownoptions = se.getOptions();
 		System.out.println("The size of DropDown is "+dropdownoptions.size());
-		for (WebElement options : dropdownoptions )
+		for (WebElement options : dropdownoptions)
 		{
 			String Cars = options.getText();
 			if(Cars.equals("maserati"))
@@ -65,7 +65,6 @@ public class DropDowns {
 		{
 			System.out.println("This dropdown doesnot have multiple select option");
 		}
-		
 		
 		
 		
